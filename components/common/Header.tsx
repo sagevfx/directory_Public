@@ -43,7 +43,7 @@ export const Header: React.FC<HeaderProps> = ({ onDeployBtnClick }) => {
             <path d="M2 17L12 22L22 17" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
             <path d="M2 12L12 17L22 12" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
           </svg>
-          <span className="font-medium text-lg bg-clip-text text-transparent bg-gradient-to-r from-indigo-600 to-violet-600 dark:from-indigo-400 dark:to-violet-400">导航站模板</span>
+          <span className="font-medium text-lg bg-clip-text text-transparent bg-gradient-to-r from-indigo-600 to-violet-600 dark:from-indigo-400 dark:to-violet-400">SageVFX导航站</span>
         </div>
         
         <div className="flex items-center gap-4">
@@ -65,17 +65,6 @@ export const Header: React.FC<HeaderProps> = ({ onDeployBtnClick }) => {
             <span>文档</span>
           </Link>
 
-          <a 
-            href="https://github.com/TencentEdgeOne/pages-templates"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="flex items-center gap-1 px-3 py-2 text-slate-700 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800 rounded-md transition-colors"
-            aria-label="投稿"
-          >
-            <GitPullRequest size={16} />
-            <span>投稿</span>
-          </a>
-          
           <button 
             onClick={toggleDarkMode}
             className="p-2 rounded-full hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors"
@@ -92,7 +81,7 @@ export const Header: React.FC<HeaderProps> = ({ onDeployBtnClick }) => {
             className="px-4 py-2 bg-gradient-to-r from-indigo-600 to-violet-600 hover:from-indigo-700 hover:to-violet-700 text-white rounded-md transition-all duration-300 shadow-sm hover:shadow-md"
             aria-label="部署"
           >
-            部署
+            关于
           </button>
         </div>
       </div>

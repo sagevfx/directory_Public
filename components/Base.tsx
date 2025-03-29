@@ -57,8 +57,8 @@ export const Base = ({ initialDirectoryItems, initialTags }: BaseProps) => {
   // Handle deploy button click
   const onDeployBtnClick = () => {
     openUrl(
-      'https://console.cloud.tencent.com/edgeone/pages/new?from=github&template=directory',
-      'https://edgeone.ai/pages/templates/directory'
+      'https://www.baidu.com/',
+      //按钮导航地址
     );
   };
 
@@ -290,8 +290,8 @@ export const Base = ({ initialDirectoryItems, initialTags }: BaseProps) => {
         <div className="container mx-auto px-4 py-12 max-w-7xl">
           <div className="text-center mb-16">
             <h1 className="text-4xl font-bold mb-4">
-              <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-cyan-400 dark:from-blue-400 dark:to-cyan-300">独立开发者</span>
-              <span className="ml-2 bg-clip-text text-transparent bg-gradient-to-r from-fuchsia-500 to-pink-500 dark:from-fuchsia-400 dark:to-pink-400">出海工具箱</span>
+              <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-cyan-400 dark:from-blue-400 dark:to-cyan-300">SageVFX</span>
+              <span className="ml-2 bg-clip-text text-transparent bg-gradient-to-r from-fuchsia-500 to-pink-500 dark:from-fuchsia-400 dark:to-pink-400">导航站</span>
             </h1>
             <p className="text-slate-600 dark:text-slate-300 text-lg mb-10 max-w-2xl mx-auto">
               {'灵感、设计、开发、工具、资源'}
@@ -367,7 +367,7 @@ export const Base = ({ initialDirectoryItems, initialTags }: BaseProps) => {
             <div className="flex items-center gap-2 mb-4 md:mb-0"></div>
 
             <div className="text-sm text-slate-500 dark:text-slate-400">
-              © {new Date().getFullYear()} Directory. All rights reserved.
+              © {new Date().getFullYear()}. SageVFX. Directory. All rights reserved.
             </div>
           </div>
         </div>
