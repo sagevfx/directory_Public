@@ -1,5 +1,5 @@
 import { Base } from '@/components/Base';
-import { getStaticDirectoryData } from '@/lib/static-data';
+import { getStaticDirectoryData } from '@/lib/getStaticDirectoryData';
 
 export const revalidate = 3600; // Revalidate every hour
 
