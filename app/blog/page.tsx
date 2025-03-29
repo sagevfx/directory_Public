@@ -112,10 +112,6 @@ export default function BlogPage() {
           ))}
         </div>
       </div>
-
-
-
-
     </div>
   );
 } 

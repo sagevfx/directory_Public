@@ -48,7 +48,7 @@ export default async function DocPage() {
               />
             </svg>
             <span className="font-medium text-lg bg-clip-text text-transparent bg-gradient-to-r from-indigo-600 to-violet-600 dark:from-indigo-400 dark:to-violet-400">
-              SageVFX导航站
+              导航站模板
             </span>
           </Link>
 
@@ -78,7 +78,7 @@ export default async function DocPage() {
 
       <footer className="bg-white dark:bg-slate-800 border-t border-slate-200 dark:border-slate-700 py-8">
         <div className="container mx-auto px-4 text-center text-slate-600 dark:text-slate-400">
-          <p>SageVFX | Indie Hacker Tools</p>
+          <p>使用 Raindrop.io 作为无头CMS构建 | Indie Hacker Tools</p>
         </div>
       </footer>
     </div>

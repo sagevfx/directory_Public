@@ -57,8 +57,8 @@ export const Base = ({ initialDirectoryItems, initialTags }: BaseProps) => {
   // Handle deploy button click
   const onDeployBtnClick = () => {
     openUrl(
-      'https://www.baidu.com/',
-      //按钮导航地址
+      'https://console.cloud.tencent.com/edgeone/pages/new?from=github&template=directory',
+      'https://edgeone.ai/pages/templates/directory'
     );
   };
 
@@ -290,11 +290,11 @@ export const Base = ({ initialDirectoryItems, initialTags }: BaseProps) => {
         <div className="container mx-auto px-4 py-12 max-w-7xl">
           <div className="text-center mb-16">
             <h1 className="text-4xl font-bold mb-4">
-              <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-cyan-400 dark:from-blue-400 dark:to-cyan-300">SageVFX</span>
-              <span className="ml-2 bg-clip-text text-transparent bg-gradient-to-r from-fuchsia-500 to-pink-500 dark:from-fuchsia-400 dark:to-pink-400">导航站</span>
+              <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-cyan-400 dark:from-blue-400 dark:to-cyan-300">独立开发者</span>
+              <span className="ml-2 bg-clip-text text-transparent bg-gradient-to-r from-fuchsia-500 to-pink-500 dark:from-fuchsia-400 dark:to-pink-400">出海工具箱</span>
             </h1>
             <p className="text-slate-600 dark:text-slate-300 text-lg mb-10 max-w-2xl mx-auto">
-              {'灵感、设计、开发、工具、资源'}
+              {'灵感、设计、开发、增长、变现、工具、资源'}
             </p>
 
             <SearchBar onSearch={handleSearch} />
@@ -357,6 +357,20 @@ export const Base = ({ initialDirectoryItems, initialTags }: BaseProps) => {
             )}
           </div>
 
+          <div className="bg-gradient-to-r from-indigo-50 to-violet-50 dark:from-indigo-900/20 dark:to-violet-900/20 rounded-2xl p-8 md:p-12 text-center mb-16 border border-indigo-100/50 dark:border-indigo-800/20 shadow-lg">
+            <h2 className="text-2xl md:text-3xl font-medium mb-4 font-serif text-indigo-800 dark:text-indigo-200">
+              准备创建您自己的导航站？
+            </h2>
+            <p className="text-indigo-700 dark:text-indigo-300 mb-8 max-w-2xl mx-auto">
+              使用我们的 EdgeOne Pages
+              模板，几分钟内即可构建美观、响应式的导航网站。
+            </p>
+            <button 
+              onClick={onDeployBtnClick}
+              className="bg-gradient-to-r from-indigo-600 to-violet-600 hover:from-indigo-700 hover:to-violet-700 text-white px-8 py-3 rounded-lg transition-all duration-300 shadow-md hover:shadow-lg flex items-center justify-center mx-auto group">
+              开始使用 <ArrowRight size={16} className="ml-2 group-hover:translate-x-1 transition-transform" />
+            </button>
+          </div>
         </div>
       </main>
 
@@ -367,7 +381,7 @@ export const Base = ({ initialDirectoryItems, initialTags }: BaseProps) => {
             <div className="flex items-center gap-2 mb-4 md:mb-0"></div>
 
             <div className="text-sm text-slate-500 dark:text-slate-400">
-              © {new Date().getFullYear()}. SageVFX. Directory. All rights reserved.
+              © {new Date().getFullYear()} Directory. All rights reserved.
             </div>
           </div>
         </div>
